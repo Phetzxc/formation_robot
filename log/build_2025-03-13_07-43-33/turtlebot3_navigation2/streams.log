@@ -1,0 +1,51 @@
+[0.283s] Invoking command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/phet/formation_turtlebot/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/phet/formation_turtlebot/install/turtlebot3_navigation2
+[0.566s] -- The C compiler identification is GNU 11.4.0
+[0.566s] -- The CXX compiler identification is GNU 11.4.0
+[0.566s] -- Detecting C compiler ABI info
+[0.566s] -- Detecting C compiler ABI info - done
+[0.567s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.567s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.578s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.753s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.964s] -- Configuring done
+[0.966s] -- Generating done
+[0.968s] -- Build files have been written to: /home/phet/formation_turtlebot/build/turtlebot3_navigation2
+[0.973s] Invoked command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/phet/formation_turtlebot/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/phet/formation_turtlebot/install/turtlebot3_navigation2
+[0.974s] Invoking command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/phet/formation_turtlebot/build/turtlebot3_navigation2 -- -j16 -l16
+[1.016s] Invoked command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/phet/formation_turtlebot/build/turtlebot3_navigation2 -- -j16 -l16
+[1.018s] Invoking command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/phet/formation_turtlebot/build/turtlebot3_navigation2
+[1.025s] -- Install configuration: ""
+[1.025s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[1.025s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.025s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[1.025s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.026s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.026s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[1.027s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.027s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.027s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.027s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.027s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[1.028s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.028s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.028s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.029s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.030s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.030s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.030s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.030s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.030s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.031s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.031s] -- Installing: /home/phet/formation_turtlebot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.033s] Invoked command in '/home/phet/formation_turtlebot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/phet/formation_turtlebot/build/turtlebot3_navigation2

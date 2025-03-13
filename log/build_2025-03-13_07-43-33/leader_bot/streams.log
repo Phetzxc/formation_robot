@@ -1,0 +1,318 @@
+[0.555s] Invoking command in '/home/phet/formation_turtlebot/build/leader_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/phet/formation_turtlebot/src/leader_bot -DCMAKE_INSTALL_PREFIX=/home/phet/formation_turtlebot/install/leader_bot
+[0.604s] -- The C compiler identification is GNU 11.4.0
+[0.653s] -- The CXX compiler identification is GNU 11.4.0
+[0.660s] -- Detecting C compiler ABI info
+[0.724s] -- Detecting C compiler ABI info - done
+[0.733s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.733s] -- Detecting C compile features - done
+[0.735s] -- Detecting CXX compiler ABI info
+[0.813s] -- Detecting CXX compiler ABI info - done
+[0.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.819s] -- Detecting CXX compile features
+[0.819s] -- Detecting CXX compile features - done
+[0.826s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.015s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.168s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.255s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.267s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.283s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.399s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.406s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.557s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.607s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.627s] -- Looking for pthread.h
+[1.744s] -- Looking for pthread.h - found
+[1.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.856s] -- Found Threads: TRUE  
+[1.959s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.968s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.993s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.022s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.255s] -- Configuring done
+[2.265s] -- Generating done
+[2.270s] -- Build files have been written to: /home/phet/formation_turtlebot/build/leader_bot
+[2.287s] Invoked command in '/home/phet/formation_turtlebot/build/leader_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/phet/formation_turtlebot/src/leader_bot -DCMAKE_INSTALL_PREFIX=/home/phet/formation_turtlebot/install/leader_bot
+[2.289s] Invoking command in '/home/phet/formation_turtlebot/build/leader_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/phet/formation_turtlebot/build/leader_bot -- -j16 -l16
+[2.366s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.383s] [ 50%] Built target ament_cmake_python_copy_leader_bot
+[2.723s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.805s] running egg_info
+[2.806s] creating leader_bot.egg-info
+[2.806s] writing leader_bot.egg-info/PKG-INFO
+[2.807s] writing dependency_links to leader_bot.egg-info/dependency_links.txt
+[2.807s] writing top-level names to leader_bot.egg-info/top_level.txt
+[2.807s] writing manifest file 'leader_bot.egg-info/SOURCES.txt'
+[2.809s] reading manifest file 'leader_bot.egg-info/SOURCES.txt'
+[2.810s] writing manifest file 'leader_bot.egg-info/SOURCES.txt'
+[2.865s] [100%] Built target ament_cmake_python_build_leader_bot_egg
+[2.898s] [100%] Built target cpp_node
+[2.918s] Invoked command in '/home/phet/formation_turtlebot/build/leader_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/phet/formation_turtlebot/build/leader_bot -- -j16 -l16
+[2.920s] Invoking command in '/home/phet/formation_turtlebot/build/leader_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/phet/formation_turtlebot/build/leader_bot
+[2.932s] -- Install configuration: ""
+[2.932s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/pythonpath.sh
+[2.932s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/pythonpath.dsv
+[2.932s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot-0.0.1-py3.10.egg-info
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot-0.0.1-py3.10.egg-info/dependency_links.txt
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot-0.0.1-py3.10.egg-info/SOURCES.txt
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot-0.0.1-py3.10.egg-info/top_level.txt
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot-0.0.1-py3.10.egg-info/PKG-INFO
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot
+[2.933s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot/__init__.py
+[2.934s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot/dummy_module.py
+[2.994s] Listing '/home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot'...
+[2.994s] Compiling '/home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot/__init__.py'...
+[2.995s] Compiling '/home/phet/formation_turtlebot/install/leader_bot/local/lib/python3.10/dist-packages/leader_bot/dummy_module.py'...
+[3.005s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/lib/leader_bot/real_image.py
+[3.005s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/lib/leader_bot/cpp_node
+[3.005s] -- Set runtime path of "/home/phet/formation_turtlebot/install/leader_bot/lib/leader_bot/cpp_node" to ""
+[3.005s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle/model.sdf
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle/model.config
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle/model-1_4.sdf
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/model.sdf
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/meshes
+[3.006s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/meshes/hexagon.dae
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/meshes/wall.dae
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/model.config
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_world/model-1_4.sdf
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/aruco_marker
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/aruco_marker/aruco_ID_1.png
+[3.007s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/aruco_marker/image.dae
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/aruco_marker/image.png
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle_pi
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle_pi/model-1_4_.sdf
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle_pi/model.sdf
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_waffle_pi/model.config
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_house
+[3.008s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_house/model.sdf
+[3.009s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_house/model.config
+[3.009s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common
+[3.009s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes
+[3.009s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/waffle_pi_base.dae
+[3.009s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/waffle_base.dae
+[3.010s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/burger_base.dae
+[3.010s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/wheels
+[3.010s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/wheels/right_tire.stl
+[3.012s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/wheels/left_tire.stl
+[3.013s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/lds.dae
+[3.013s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/r200.dae
+[3.014s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/bases
+[3.014s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[3.025s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/bases/burger_base.stl
+[3.032s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/bases/waffle_base.stl
+[3.055s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors
+[3.055s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors/astra.jpg
+[3.056s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors/r200.jpg
+[3.056s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors/r200.dae
+[3.056s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors/lds.stl
+[3.057s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/sensors/astra.dae
+[3.070s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/meshes/tire.dae
+[3.070s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_common/model.config
+[3.070s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world
+[3.070s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/goal_box
+[3.071s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/goal_box/model.sdf
+[3.071s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/goal_box/model.config
+[3.071s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle2
+[3.071s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle2/model.sdf
+[3.071s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle2/model.config
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacles
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacles/model.sdf
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacles/model.config
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/model.sdf
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/inner_walls
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/inner_walls/model.sdf
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/inner_walls/model.config
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/model.config
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle1
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle1/model.sdf
+[3.072s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_dqn_world/obstacle1/model.config
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/model.sdf
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/model.config
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/materials
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/materials/textures
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/materials/scripts
+[3.073s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/model.config
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/materials
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts
+[3.074s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/model.sdf
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/model.config
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/textures
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png
+[3.075s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/scripts
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf
+[3.076s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/model.config
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/materials
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar
+[3.077s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/model.sdf
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/model.config
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/materials
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/materials/textures
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/materials/scripts
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop
+[3.078s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/model.sdf
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/model.config
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/materials
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/materials/textures
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/materials/scripts
+[3.079s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/model.sdf
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/model.config
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/materials
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/materials/textures
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts
+[3.080s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/model.sdf
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/model.config
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/materials
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/materials/textures
+[3.081s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/model.sdf
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/model.config
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/materials
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/materials/textures
+[3.082s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/materials/scripts
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/model.sdf
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/model.config
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/materials
+[3.083s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/materials/textures
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/materials/textures/course.png
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/materials/scripts
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/course/materials/scripts/course.material
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/model.sdf
+[3.084s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/model.config
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/materials
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/materials/textures
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/materials/scripts
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker
+[3.085s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/model.sdf
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/model.config
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials/textures
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials/textures/checker.png
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials/checker.png
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials/scripts
+[3.086s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/model.sdf
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/model.config
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/materials
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/materials/textures
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/materials/scripts
+[3.087s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger/model.sdf
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger/model.config
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger/model-1_4.sdf
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger_cam
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger_cam/model.sdf
+[3.088s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger_cam/model.config
+[3.089s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/models/turtlebot3_burger_cam/model-1_4.sdf
+[3.089s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes
+[3.089s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/wheels
+[3.089s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/wheels/right_tire.stl
+[3.091s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/wheels/left_tire.stl
+[3.092s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/bases
+[3.092s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/bases/waffle_pi_base.stl
+[3.103s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/bases/burger_base.stl
+[3.110s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/bases/waffle_base.stl
+[3.132s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors
+[3.132s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors/astra.jpg
+[3.132s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors/r200.jpg
+[3.132s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors/r200.dae
+[3.133s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors/lds.stl
+[3.134s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/meshes/sensors/astra.dae
+[3.146s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds
+[3.146s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_dqn_stage3.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_house.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/empty_world.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_dqn_stage2.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_world.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_dqn_stage4.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_dqn_stage1.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/worlds/turtlebot3_autorace_2020.world
+[3.147s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_dqn_stage1.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_autorace_2020.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/robot_state_publisher.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_world.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_dqn_stage4.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/multi_spawn_turtlebot3.launch.py
+[3.148s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/spawn_turtlebot3.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/empty_world.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/multi_robot.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_house.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_dqn_stage3.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/launch/turtlebot3_dqn_stage2.launch.py
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts
+[3.149s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts/convert_real_image_to_fisheye.py
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts/make_image_to_panorama.py
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts/convert_fisheye_to_image.py
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts/make_image_to_panorama2.py
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/scripts/real_image.py
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf
+[3.150s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf/turtlebot3_burger_cam.urdf
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf/turtlebot3_waffle_pi.urdf
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf/common_properties.urdf
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf/turtlebot3_burger.urdf
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/urdf/turtlebot3_waffle.urdf
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/rviz
+[3.151s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/rviz/tb3_gazebo.rviz
+[3.152s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/ament_index/resource_index/package_run_dependencies/leader_bot
+[3.152s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/ament_index/resource_index/parent_prefix_path/leader_bot
+[3.152s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/ament_prefix_path.sh
+[3.152s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/ament_prefix_path.dsv
+[3.153s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/path.sh
+[3.153s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/environment/path.dsv
+[3.153s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/local_setup.bash
+[3.153s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/local_setup.sh
+[3.153s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/local_setup.zsh
+[3.154s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/local_setup.dsv
+[3.154s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/package.dsv
+[3.154s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/ament_index/resource_index/packages/leader_bot
+[3.154s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/cmake/leader_botConfig.cmake
+[3.154s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/cmake/leader_botConfig-version.cmake
+[3.155s] -- Installing: /home/phet/formation_turtlebot/install/leader_bot/share/leader_bot/package.xml
+[3.159s] Invoked command in '/home/phet/formation_turtlebot/build/leader_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phet/formation_turtlebot/install/turtlebot3_teleop:/home/phet/formation_turtlebot/install/turtlebot3_example:/home/phet/install/examples_rclpy_minimal_action_server:/home/phet/install/examples_rclpy_minimal_action_client:/home/phet/install/examples_rclpy_guard_conditions:/home/phet/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/phet/formation_turtlebot/build/leader_bot
